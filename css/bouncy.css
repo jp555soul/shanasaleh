@@ -1,0 +1,74 @@
+.bouncy h1 {
+  height: 100px;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bouncy h1 span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  animation: bounce .3s ease infinite alternate;
+  font-family: 'Titan One', cursive;
+  font-size: 80px;
+  color: #FFF;
+  text-shadow: 0 1px 0 #CCC,
+               0 2px 0 #CCC,
+               0 3px 0 #CCC,
+               0 4px 0 #CCC,
+               0 5px 0 #CCC,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .4);
+}
+
+.bouncy h1 span:nth-child(2) { animation-delay: .1s; }
+.bouncy h1 span:nth-child(3) { animation-delay: .2s; }
+.bouncy h1 span:nth-child(4) { animation-delay: .3s; }
+.bouncy h1 span:nth-child(5) { animation-delay: .4s; }
+.bouncy h1 span:nth-child(6) { animation-delay: .5s; }
+.bouncy h1 span:nth-child(7) { animation-delay: .6s; }
+.bouncy h1 span:nth-child(8) { animation-delay: .7s; }
+.bouncy h1 span:nth-child(9) { animation-delay: .8s; }
+.bouncy h1 span:nth-child(10) { animation-delay: .9s; }
+.bouncy h1 span:nth-child(11) { animation-delay: .10s; }
+.bouncy h1 span:nth-child(12) { animation-delay: .11s; }
+.bouncy h1 span:nth-child(13) { animation-delay: .12s; }
+.bouncy h1 span:nth-child(14) { animation-delay: .13s; }
+.bouncy h1 span:nth-child(15) { animation-delay: .14s; }
+.bouncy h1 span:nth-child(16) { animation-delay: .15s; }
+.bouncy h1 span:nth-child(17) { animation-delay: .16s; }
+.bouncy h1 span:nth-child(18) { animation-delay: .17s; }
+.bouncy h1 span:nth-child(19) { animation-delay: .18s; }
+.bouncy h1 span:nth-child(20) { animation-delay: .19s; }
+.bouncy h1 span:nth-child(21) { animation-delay: .20s; }
+.bouncy h1 span:nth-child(22) { animation-delay: .21s; }
+.bouncy h1 span:nth-child(23) { animation-delay: .22s; }
+.bouncy h1 span:nth-child(24) { animation-delay: .23s; }
+.bouncy h1 span:nth-child(25) { animation-delay: .24s; }
+
+@keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 #CCC,
+                 0 7px 0 #CCC,
+                 0 8px 0 #CCC,
+                 0 9px 0 #CCC,
+                 0 10px 0 #CCC,
+                 0 11px 0 #CCC,
+                 0 12px 0 #CCC,
+                 0 13px 0 #CCC,
+                 0 14px 0 #CCC,
+                 0 15px 0 #CCC,
+                 0 50px 25px rgba(0, 0, 0, .2);
+  }
+}
